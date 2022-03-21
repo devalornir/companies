@@ -1,0 +1,33 @@
+{
+  "name": "storybook",
+  "version": "1.0.0",
+  "description": "docker for storybook",
+  "main": "index.js",
+  "scripts": {
+    "storybook": "start-storybook -s 8086"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devalornir/companies.git"
+  },
+  "keywords": [
+    "storybook_image"
+  ],
+  "author": "ornir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devalornir/companies/issues"
+  },
+  "homepage": "https://github.com/devalornir/companies#readme",
+  "dependencies": {
+    "vue": "^3.2.31"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.8",
+    "@storybook/vue": "^6.1.21",
+    "babel-loader": "^8.2.3",
+    "babel-preset-vue": "^2.0.2",
+    "vue-loader": "^17.0.0",
+    "vue-template-compiler": "^2.6.14"
+  }
+}
